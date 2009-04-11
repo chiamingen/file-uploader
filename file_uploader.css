@@ -1,0 +1,74 @@
+body {
+	background:#f7f7f7;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+}
+
+#upload_box {
+	width:500px;
+	margin:auto;
+	margin-top:100px;
+}
+
+
+/* Common column size(name, size) */
+
+.name, .h_name {
+	float:left;
+	width:305px;
+}
+
+.size, .h_size {
+	float:left;
+	width:85px;
+	text-align:right;
+}
+
+/* Header */
+
+#header {
+	padding:6px 0px 6px 10px;
+}
+
+#header .h_select {
+	float:left;
+	width:100px;
+	text-align:center;
+}
+
+/* File collection */
+
+#file_collection {
+	background:#FFFFFF;
+	border:solid 1px #cccccc;
+	border-bottom:0px;
+	height:250px;
+	overflow:auto;
+}
+
+#file_collection .file {
+	background:url(images/file_upload_progress.gif) repeat-y;
+	background-position:-800px 0px;
+	border-bottom:solid 1px #e4e4e4;
+	padding:6px 0px 6px 10px;
+}
+
+#file_collection .file .select {
+	float:left;
+	width:60px;
+	margin-left:20px;
+	text-align:center;
+}
+
+#file_collection .file .select .remove img{
+	border:0px;
+}
+
+/* Footer */
+
+#footer {
+	background:#e4e4e4;
+	padding:7px 10px;
+	font-weight:bold;
+	border:solid 1px #cccccc;
+}
