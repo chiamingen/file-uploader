@@ -1,5 +1,4 @@
 function all_files_uploaded() {
-	alert("momo");
 }
 
 function getFlashMovie(movieName) {
@@ -9,10 +8,6 @@ function getFlashMovie(movieName) {
 
 function file_completed(fileID) {
 	$('#' + fileID + ' .select').html('<img src="images/tick.png">');
-}
-
-function upload_started() {
-	$('.select').html('');
 }
 
 function remove(e) {
@@ -58,5 +53,6 @@ function file_start(fileID) {
 }
 
 function upload() {
+	$('.select').html('');
 	getFlashMovie("uploader").upload();
-}
+
